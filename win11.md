@@ -19,6 +19,8 @@ powercfg.exe /hibernate on
 
 #### WSL
 - search bar search: Turn windows features on or off
+    - enable HyprV
+    - enable Windows Subsystem for Linux
 - exec:
     - `wsl`
     - `wsl --install debian`
