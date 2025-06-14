@@ -5,6 +5,8 @@
 
 ## Uninstall
 
+- Office 365 Co-pilot, MS Co-pilot
+
 ```
 winget source remove msstore
 ```
@@ -15,12 +17,13 @@ powercfg.exe /hibernate on
 
 ## Install
 
-- WSL
-search bar search: Turn windows features on or off
+#### WSL
+- search bar search: Turn windows features on or off
+- exec:
+    - `wsl`
+    - `wsl --install debian`
 
-exec:
-- `wsl`
-- `wsl --install debian`
+#### Other apps
 
 ```
 winget install chrome playnite
@@ -30,4 +33,4 @@ winget install chrome playnite
 winget install epicgames.epicgameslauncher
 ```
 
-
+- [OFFICE 365](https://www.microsoft.com/en-us/microsoft-365/download-office#download)
